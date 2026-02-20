@@ -370,6 +370,12 @@ h1, h2, h3, h4, h5, h6 {
 .analytics-section {
   background: linear-gradient(160deg, #0a1628 0%, #1e3a5f 55%, #0a1628 100%);
 }
+.analytics-section .section-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  font-weight: 800; color: #ffffff;
+  margin-bottom: .75rem; line-height: 1.15;
+}
 
 /* Feature pills */
 .analytics-pills-row {
