@@ -16,6 +16,8 @@
   <link rel="preconnect" href="https://unpkg.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&display=swap" /></noscript>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet" />
@@ -27,7 +29,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com" defer></script>
   <script>
     tailwind.config = {
       theme: {
@@ -49,7 +51,7 @@
   </script>
 
   <!-- Flowbite (must come after Tailwind) -->
-  <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.js"></script>
+  <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.js" defer></script>
 
   <!-- Custom CSS (must come last so it can override) -->
   <link rel="stylesheet" href="css/styles.css" />
@@ -125,7 +127,7 @@
 
         <!-- Slide 1 -->
         <div class="carousel-item hidden" data-index="0">
-          <img src="assets/images/hero-1.jpg"
+          <img src="assets/images/hero-1.jpg" fetchpriority="high"
                data-fallback="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
                class="absolute inset-0 w-full h-full object-cover" alt="Team collaborating around data dashboards" />
           <div class="absolute inset-0 bg-black/55" aria-hidden="true"></div>
@@ -921,9 +923,9 @@
   <!-- ══════════════════════════════════════════
        SCRIPTS (order matters)
   ══════════════════════════════════════════ -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+  <script src="js/main.js" defer></script>
 
 </body>
 </html>
