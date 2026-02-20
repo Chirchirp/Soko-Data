@@ -1,0 +1,9 @@
+customer_id,age,monthly_spend_ksh,tenure_months,data_usage_gb,calls_per_week,sms_per_week,county,segment,churn_risk
+C001,34,2400,18,12.5,45,30,Nairobi,SME,low
+C002,27,850,3,3.2,12,8,Mombasa,Consumer,high
+C003,45,5200,36,28.1,67,12,Nairobi,Enterprise,low
+C004,22,400,1,1.1,5,20,Kisumu,Consumer,high
+C005,38,3100,24,18.7,55,40,Nakuru,SME,medium
+C006,52,7800,60,35.4,80,5,Nairobi,Enterprise,low
+C007,29,1200,6,8.9,22,55,Eldoret,Consumer,medium
+C008,41,2900,30,22.0,60,18,Mombasa,SME,low
